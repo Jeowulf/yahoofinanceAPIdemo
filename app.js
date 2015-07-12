@@ -60,11 +60,23 @@ app.use(function(err, req, res, next) {
 yahooFinance.snapshot({
   symbol: 'GE',
    fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
-}, function(err, quotes) {
-  console.log(quotes);
+}, function(err, snapshot) {
+  console.log(snapshot);
   });
 yahooFinance.snapshot({
   symbol: 'AAPL',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'MCD',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'KO',
   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
 }, function (err, snapshot) {
   console.log(snapshot);
