@@ -58,19 +58,43 @@ app.use(function(err, req, res, next) {
 });
 ///Yahoo finnance
 yahooFinance.snapshot({
-  symbol: 'GE',
+  symbol: 'BBY',
    fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
 }, function(err, snapshot) {
   console.log(snapshot);
   });
 yahooFinance.snapshot({
-  symbol: 'AAPL',
+  symbol: 'ADS',
   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
 }, function (err, snapshot) {
   console.log(snapshot);
 });
 yahooFinance.snapshot({
+  symbol: 'TGT',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'DAL',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'NKE',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
   symbol: 'MCD',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'AXP',
    fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
 }, function(err, snapshot) {
   console.log(snapshot);
@@ -81,5 +105,96 @@ yahooFinance.snapshot({
 }, function (err, snapshot) {
   console.log(snapshot);
 });
+yahooFinance.snapshot({
+  symbol: 'VZ',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'PEP',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'BBRY',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'SNE',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'LUV',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'ETSY',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'JBLU',
+  fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function (err, snapshot) {
+  console.log(snapshot);
+});
+yahooFinance.snapshot({
+  symbol: 'SSNLF',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'SBUX',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'WFM',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'GOOG',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'MSFT',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'YHOO',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'INTC',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+yahooFinance.snapshot({
+  symbol: 'T',
+   fields: ['s', 'n', 'd1', 'l1', 'y', 'r'],
+}, function(err, snapshot) {
+  console.log(snapshot);
+  });
+
 
 module.exports = app;
